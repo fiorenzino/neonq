@@ -7,11 +7,14 @@ import javax.ws.rs.core.Context;
 import javax.ws.rs.core.Response;
 import javax.ws.rs.core.UriInfo;
 
+import static javax.ws.rs.core.Response.Status.NOT_FOUND;
+
 public abstract class GenericServiceRs<T> {
 
     Service<T> service;
 
-    public GenericServiceRs(){}
+    public GenericServiceRs() {
+    }
 
     public GenericServiceRs(Service<T> service) {
         this.service = service;
@@ -25,7 +28,7 @@ public abstract class GenericServiceRs<T> {
         if (entity != null) {
             return Response.ok(entity).build();
         }
-        return Response.serverError().build();
+        return Response.status(NOT_FOUND).build();
     }
 
     @POST
