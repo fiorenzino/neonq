@@ -1,6 +1,6 @@
 package ovh.flw.neonq.service.rs;
 
-import ovh.flw.neonq.commons.service.rs.GenericServiceRs;
+import ovh.flw.neonq.common.service.rs.GenericServiceRs;
 import ovh.flw.neonq.model.Actor;
 import ovh.flw.neonq.service.ActorService;
 

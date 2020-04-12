@@ -1,6 +1,6 @@
-package ovh.flw.neonq.commons.service.rs;
+package ovh.flw.neonq.common.service.rs;
 
-import ovh.flw.neonq.commons.service.Service;
+import ovh.flw.neonq.common.service.Service;
 
 import javax.ws.rs.*;
 import javax.ws.rs.core.Context;

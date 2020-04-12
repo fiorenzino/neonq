@@ -1,7 +1,7 @@
-package ovh.flw.neonq.commons.service;
+package ovh.flw.neonq.common.service;
 
 import org.neo4j.ogm.session.Session;
-import ovh.flw.neonq.commons.model.Entity;
+import ovh.flw.neonq.common.model.Entity;
 
 import javax.inject.Inject;
 

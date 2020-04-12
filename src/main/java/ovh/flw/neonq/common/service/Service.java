@@ -1,4 +1,4 @@
-package ovh.flw.neonq.commons.service;
+package ovh.flw.neonq.common.service;
 
 public interface Service<T> {
 

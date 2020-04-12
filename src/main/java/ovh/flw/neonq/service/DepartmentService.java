@@ -1,6 +1,6 @@
 package ovh.flw.neonq.service;
 
-import ovh.flw.neonq.commons.service.GenericService;
+import ovh.flw.neonq.common.service.GenericService;
 import ovh.flw.neonq.model.Department;
 
 import javax.inject.Singleton;

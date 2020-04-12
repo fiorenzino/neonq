@@ -1,6 +1,6 @@
 package ovh.flw.neonq.service;
 
-import ovh.flw.neonq.commons.service.GenericService;
+import ovh.flw.neonq.common.service.GenericService;
 import ovh.flw.neonq.model.Course;
 
 import javax.inject.Singleton;
