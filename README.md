@@ -11,6 +11,15 @@ You can run your application in dev mode that enables live coding using:
 ./mvnw quarkus:dev
 ```
 
+## Neo4j in docker
+```
+docker run \
+    --publish=7474:7474 --publish=7687:7687 \
+    --volume=$HOME/neo4j/data:/data \
+    --env NEO4J_AUTH=neo4j/test \
+    neo4j:4.0.3
+```
+
 ## Packaging and running the application
 
 The application can be packaged using `./mvnw package`.
@@ -28,3 +37,4 @@ Or, if you don't have GraalVM installed, you can run the native executable build
 You can then execute your native executable with: `./target/neonq-1.0-SNAPSHOT-runner`
 
 If you want to learn more about building native executables, please consult https://quarkus.io/guides/building-native-image-guide.
+
